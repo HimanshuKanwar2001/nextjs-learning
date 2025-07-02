@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "About",
+  description: "Hello World!",
+};
+
+
 export default function About() {
   return (
     <>

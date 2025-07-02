@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: {
+    absolute:"My Files"
+  },
+  description: "Hello World!",
+};
+
+
+
 //Catch All Routes
 
 export default async function FilePath({ params }) {
