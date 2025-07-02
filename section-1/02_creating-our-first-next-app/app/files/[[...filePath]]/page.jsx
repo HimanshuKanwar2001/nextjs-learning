@@ -7,7 +7,7 @@ export default async function FilePath({ params }) {
   console.log(filePath);
   return (
     <>
-      <h1>File Path : /{filePath.join("/")}</h1>
+      <h1>File Path : /{filePath?.join("/")}</h1>
     </>
   );
 }
